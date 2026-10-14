@@ -7,19 +7,13 @@ Welcome to my developer portfolio! This repository contains my mini-projects, fr
 - React, Node.js
 - Golang, Python
 
-## 📂 Project Structure
+### 📂 Projects
 
-```text
-developer-portfolio/
-│
-├── 01-mini-projects/
-│   ├── bmi-generator/
-│   ├── change-page-color/
-│   ├── digital-clock/
-│   └── guess-number/
-│
-└── readme.md
-```
+- **Mini Projects**
+  - [bmi-generator](./01-mini-projects/bmi-generator/)
+  - [change-page-color](./01-mini-projects/change-page-color/)
+  - [digital-clock](./01-mini-projects/digital-clock/)
+  - [guess-number](./01-mini-projects/guess-number/)
 
 ## 🎯 Goal
 
