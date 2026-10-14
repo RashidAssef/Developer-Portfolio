@@ -1,0 +1,108 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(34, 34, 34);
+}
+
+.s1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.s2{
+    background-color: rgb(95, 95, 95);
+    padding-left: 83px;
+    padding-right: 83px;
+}
+
+h3{
+    margin-top: 10px;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: black;
+}
+
+#g1{
+    display: flex;
+    gap: 5px
+}
+#g0{
+    margin-top: 5px;
+    padding-left: 2px;
+    background-color: silver; 
+    color: black;
+}
+
+.p1{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+    gap: 5px;
+    text-align: center;
+}
+
+.b1{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    gap: 15px;
+    
+}
+
+#guess{
+    width: 200px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+#g2{
+    display: flex;
+    gap: 5px;
+}
+
+#submit{
+    background-color: rgb(26, 26, 26);
+    width: 125px;
+    height: 30px;
+    border: 2px rgb(26, 26, 26);
+    border-radius: 6px;
+    color: white;
+}
+
+#submit:hover{
+    background-color: silver;
+}
+
+.p2{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+nav{
+    background-color: silver;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border-bottom: 1px solid black;
+}
+
+nav button{
+    width: 120px;
+    height: 40px;
+    color: black;
+}
