@@ -1,0 +1,214 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    
+}
+
+body{
+    background-image: url("./paper.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.head{
+    background-color: rgb(51, 51, 50);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin: 150px auto 0;
+    width: 600px;
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.head h1{
+    padding: 15px;
+}
+
+.head p{
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+
+
+#form{
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    padding: 15px;
+    margin: 0px auto 0;
+    gap: 10px;
+    background-color: white;
+    border: 1px solid silver;
+
+}
+
+#addBTN{
+    width: 450px;
+    height: 35px;
+    padding-left: 15px;
+}
+
+#ADD{
+    background-color: rgb(51, 50, 50);
+    color: white;
+    width: 75px;
+    border-radius: 6px;
+}
+
+#btns{
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    padding: 15px;
+    margin: 0px auto 0;
+    border-bottom: 1px solid silver;
+    border-left: 1px solid silver;
+    border-right: 1px solid silver;
+    gap: 10px;
+    background-color: rgb(239, 240, 241);
+}
+
+#b1{
+    width: 50px;
+    height: 30px;
+    background-color: rgb(51, 50, 50);
+    color: white;
+    border-radius: 6px;
+}
+
+#b2{
+    width: 75px;
+    height: 30px;
+    border-radius: 6px;
+}
+
+#b3{
+    width: 95px;
+    height: 30px;
+    border-radius: 6px;
+}
+
+.task{
+    display: flex;
+    width: 600px;
+    padding:25px;
+    padding-left: 35px;
+    margin: 0px auto 0;
+    background-color:  white;
+    font-size: 20px;
+    gap: 10px;
+    border-bottom: 1px solid silver;
+    border-left: 1px solid silver;
+    border-right: 1px solid silver;
+
+}
+
+.task input[type="checkbox"]{
+    transform: scale(1.5);
+}
+
+.task input[type="checkbox"]:checked + .todo-text{
+    color: gray;
+    text-decoration: line-through;
+}
+
+.task .dlt-btn{
+    margin-left: auto;
+    background: transparent;
+    outline: 0px;
+    width: 20px;
+}
+
+.end{
+    display: flex;
+    width: 600px;
+    padding: 15px;
+    margin: 0px auto 0;
+    justify-content: space-between;
+    background-color: rgb(239, 240, 241);
+    border-bottom: 1px solid silver;
+    border-left: 1px solid silver;
+    border-right: 1px solid silver;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.e0{
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    font-size: 18px;
+    color: rgb(100, 100, 100);
+    
+}
+
+.e1{
+    width: 170px;
+    height: 40px;
+    color:rgb(100, 100, 100);
+    border-radius: 6px;
+}
+
+
+@media (max-width:801px){
+    .head{
+        width: 75vw;
+    }
+    #form{
+        width: 75vw; 
+    }
+    #btns{
+        width: 75vw;
+    }
+
+    .task{
+        width: 75vw;
+    }
+
+    .end{
+        width: 75vw;
+    }
+}
+
+
+@media (max-width:420px) {
+    .head{
+        width: 315px;
+    }
+
+    #form{
+        width: 315px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #addBTN{
+        width: 290px;
+    }
+
+    #ADD{
+        width: 290px;
+        height: 35px
+    }
+
+    #btns{
+        width: 315px;
+    }
+
+    .task{
+        width: 315px;
+    }
+
+    .end{
+        width: 315px;
+    }
+}

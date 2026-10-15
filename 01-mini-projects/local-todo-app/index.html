@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Galada&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="head">
+        <h1>My Todo List</h1>
+        <p>Stay Organized And Productive</p>
+    </div>
+    
+    <form id="form"> 
+        <input type="text" id="addBTN" value="" placeholder="Add a New Task...">
+        <button type="submit" id="ADD">Add</button>
+    </form>
+
+    <div id="btns">
+        <button id="b1">ALL</button>
+        <button id="b2">Active</button>
+        <button id="b3">Completed</button>
+    </div>
+
+    <ul id="tasklist">
+        <!-- <li class="task">
+            <input type="checkbox" class="todo-checkbox" isCompleted="">
+            <span class="todo-text">Read Papers</span>
+            <button id= "dlt-btn"> x </button>
+        </li> -->
+    </ul>
+
+    
+
+    <div class="end">
+        <p class="e0"></p>
+        <button class="e1"> Clear Completed</button>
+    </div>
+
+    <script src="./app.js"></script>
+
+</body>
+</html>

@@ -14,6 +14,7 @@ Welcome to my developer portfolio! This repository contains my mini-projects, fr
   - [change-page-color](./01-mini-projects/change-page-color/)
   - [digital-clock](./01-mini-projects/digital-clock/)
   - [guess-number](./01-mini-projects/guess-number/)
+  - [local-todo-app](./01-mini-projects/local-todo-app/)
 
 ## 🎯 Goal
 
